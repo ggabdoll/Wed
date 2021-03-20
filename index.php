@@ -10,9 +10,9 @@
 	</header>
 	<nav>
 		<ol>
-			<li><a href="http://localhost/page_html.html"> JavaScript </a></li>
-			<li><a href="http://localhost/vc_html.html"> 변수와 상수</a> </li>
-			<li><a href="http://localhost/op_html.html"> 연산자</a> </li>
+					```	<li><a href="http://localhost/page_html.html"> JavaScript </a></li>
+						<li><a href="http://localhost/vc_html.html"> 변수와 상수</a> </li>
+						<li><a href="http://localhost/op_html.html"> 연산자</a> </li>```
 		 </ol>
 	</nav>
 
