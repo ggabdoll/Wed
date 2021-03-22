@@ -40,7 +40,7 @@ function init() {
 }
 init();
 
-function handleOffline() {
+/*function handleOffline() {
     console.log("Bye bye")
 }
 
@@ -49,4 +49,6 @@ function handleOnline(){
 }
 
 window.addEventListener("offline",handleOffline);
-window.addEventListener("online", handleOnline);
+window.addEventListener("online", handleOnline);*/
+
+
