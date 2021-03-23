@@ -3,6 +3,10 @@
     display: none;
 }
 
+body{
+    color: #34495e;
+}
+
 .showing {
     display: block;
 }
