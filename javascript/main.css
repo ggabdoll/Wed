@@ -11,8 +11,30 @@ body{
     color:white;
 }
 
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 10em;
+}
 .showing {
     display: block;
+    font-size: 70px;
+    margin-bottom: 30px;
+    
+}
+
+.js-toDoForm{
+    text-align: center;
+    font-size: 65px
+}
+
+.js-weather{
+    float: right;
+    font-size: 25px;
 }
 
 @keyframes fadeIn{
