@@ -65,6 +65,12 @@ outline: none;
 .toDo_btn{
     margin-right: 10px;
     cursor: pointer;
+    font-size: 23px;
+    color: tomato;
+    background: none;
+    border: 0;
+    appearance: none;
+    
 }
 
 
