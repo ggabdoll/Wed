@@ -17,24 +17,67 @@ body{
     flex-direction: column;
 }
 
-h1{
+.center .clock{
+   
     font-size: 10em;
+    bottom: 0;
+
 }
-.showing {
+
+.center .clock__text{
+    margin-block-end: 0px;
+    margin-block-start : 5.5cm;
+}
+
+.center .form{
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+.center .greetings{
+    display: block;
+    font-size: 36px;
+    background: none;
+    color: white;
+    border-bottom: 3px soid white;
+    margin-bottom: 20px;
+    font-style: italic;
+    
+}
+
+.center .toDoForm{
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    border-bottom: 3px solid white;
+}
+
+
+/* .showing {
     display: block;
     font-size: 70px;
     margin-bottom: 30px;
     
-}
+} */
 
-.js-toDoForm{
-    text-align: center;
-    font-size: 65px
-}
+
 
 .js-weather{
-    float: right;
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 20px;
     font-size: 25px;
+    background: none;
+    border: none;
+    margin-block-end: 0px;
+    margin-left: 0px;
 }
 
 @keyframes fadeIn{
@@ -46,12 +89,22 @@ h1{
     }
 }
 
-.bgImage{
+/* .bgImage{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+} */
+
+.getBackg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
     z-index: -1;
     animation: fadeIn .5s linear;
 }
